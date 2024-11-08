@@ -23,6 +23,7 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
@@ -32,6 +33,13 @@ export default [
       'react-refresh/only-export-components': [
         'warn',
         { allowConstantExport: true },
+        // .eslintrc.json
+        {
+          "env": {
+            "node": true
+          },
+          // Other ESLint rules and settings
+        }
       ],
     },
   },

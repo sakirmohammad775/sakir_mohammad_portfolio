@@ -1,10 +1,14 @@
+import Navbar from "../Component/Navbar/Navbar";
+import CarouselBar from "./Carousel/CarouselBar";
 
 
 const Home = () => {
     return (
-        <div>
-            
-        </div>
+        <>
+        <Navbar></Navbar>
+        <CarouselBar></CarouselBar>
+        
+        </>
     );
 };
 
