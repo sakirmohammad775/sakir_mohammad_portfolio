@@ -32,7 +32,7 @@ const Navbar = () => {
                 </Link>
             </Link>
         </li> */}
-
+{/* 
         {
             user ?
                 <>
@@ -40,12 +40,12 @@ const Navbar = () => {
                     <button onClick={handleLogOut} className="btn btn-ghost">LogOut</button></>
                 :
                 <><li><Link to='/login'>Login</Link></li> </>
-        }
+        } */}
 
     </>
     return (
         <>
-            <div className="navbar fixed z-20 bg-opacity-30 bg-black text-white ">
+            <div className="navbar fixed z-20 bg-opacity-0 max-w-screen-xl  bg-black text-white ">
                 <div className="navbar-start">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -68,7 +68,7 @@ const Navbar = () => {
                             {navOptions}
                         </ul>
                     </div>
-                    <a className="btn btn-ghost text-xl">BiteBuzz</a>
+                    <a className="btn btn-ghost text-xl text-orange-500">Sakir <span className="text-white">Mohammad</span></a>
                 </div>
                 <div className="navbar-center hidden lg:flex">
                     <ul className="menu menu-horizontal px-1">
