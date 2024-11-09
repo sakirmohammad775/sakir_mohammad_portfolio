@@ -1,53 +1,34 @@
  [
         {
             "title": "Membantu Temukan Rumah Impian",
-            "image": "https://example.com/project1.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project1"
           },
           {
             "title": "Discover Wonderful Indonesia",
-            "image": "https://example.com/project2.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project2"
           },
           {
             "title": "COFFEE HOUSE",
-            "image": "https://example.com/project3.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project3"
           },
           {
             "title": "E-commerce Website",
-            "image": "https://example.com/project4.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project4"
           },
           {
             "title": "Portfolio Website",
-            "image": "https://example.com/project5.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project5"
           },
           {
             "title": "Blog Website",
-            "image": "https://example.com/project6.jpg",
+            "image": "https://i.ibb.co.com/RN5Qs1R/mathias-reding-Cqa26-OOub-Ms-unsplash.jpg",
             "link": "https://example.com/project6"
-          },
-          {
-            "title": "Social Media App",
-            "image": "https://example.com/project7.jpg",
-            "link": "https://example.com/project7"
-          },
-          {
-            "title": "Mobile App",
-            "image": "https://example.com/project8.jpg",
-            "link": "https://example.com/project8"
-          },
-          {
-            "title": "Web Application",
-            "image": "https://example.com/project9.jpg",
-            "link": "https://example.com/project9"
-          },
-          {
-            "title": "Game Development",
-            "image": "https://example.com/project10.jpg",
-            "link": "https://example.com/project10"
           }
+        
     ]
   
