@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import  video1 from "../assets/received_-1116674370_edit-446096209.mp4"
+import  video1 from "../assets/invideo-ai-1080 Unlock the Power of JavaScript Developme 2024-11-08 (1).mp4"
 
 const InfoSection = () => {
   // Use a ref to control the video
