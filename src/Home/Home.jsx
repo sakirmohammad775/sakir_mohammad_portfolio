@@ -1,7 +1,7 @@
 import Footer from "../Component/Footer/Footer";
 import Navbar from "../Component/Navbar/Navbar";
 import Banner from "./Banner/Banner";
-import Card from "./Card/Card";
+import EssentialTools from "./EssentialTools/EssentialTools.jsx";
 import InfoSection from "./InfoSection";
 import MyProjects from "./MyProject/MyProject";
 import Newsletter from "./NewsLetter/NewsLetter";
@@ -17,8 +17,8 @@ const Home = () => {
         <Navbar ></Navbar>
         <Banner></Banner>
         <InfoSection></InfoSection>
+        <EssentialTools></EssentialTools>
         <MyProjects></MyProjects>
-        <Card></Card>
         <WhatWeDo></WhatWeDo>
         <WhatWeOffer></WhatWeOffer>
         <Newsletter></Newsletter>

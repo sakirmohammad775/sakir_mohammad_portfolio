@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "title": "Figma",
+        "description": "Design tool",
+        "icon": "figma-icon.svg"
+      },
+      {
+        "id": 2,
+        "title": "CSS",
+        "description": "User Interface",
+        "icon": "css-icon.svg"
+      }
+]
