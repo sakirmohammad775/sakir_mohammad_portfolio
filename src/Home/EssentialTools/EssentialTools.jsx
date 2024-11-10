@@ -4,10 +4,11 @@ const EssentialTools = () => {
   const [tools, setTools] = useState([]);
 
   useEffect(() => {
-    // Fetch the JSON data
-    fetch('tools.json')
+    // Fetch data from the local JSON file
+    fetch('/tools.json')
       .then(response => response.json())
-      .then(data => setTools(data));
+      .then(data => setTools(data.essential_tools))
+      .catch(error => console.error('Error fetching tools:', error));
   }, []);
 
   return (
@@ -18,9 +19,9 @@ const EssentialTools = () => {
         {tools.map(tool => (
           <div key={tool.id} className="bg-gray-800 rounded-lg p-8 text-white">
             <div className="flex items-center justify-center mb-4">
-              <img src={tool.icon} alt={tool.title} className="w-16 h-16" />
+              <img src={tool.icon} alt={tool.name} className="w-16 h-16" />
             </div>
-            <h3 className="text-xl font-bold mb-2">{tool.title}</h3>
+            <h3 className="text-xl font-bold mb-2">{tool.name}</h3>
             <p>{tool.description}</p>
           </div>
         ))}
