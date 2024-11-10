@@ -1,43 +1,26 @@
-[
+{
+    "essential_tools": [
       {
+        "id": 1,
         "name": "Figma",
         "category": "Design tool",
-        "description": "Design and prototype user interfaces."
+        "description": "Design and prototype user interfaces.",
+        "iconComponent": "FaFigma"
       },
       {
+        "id": 2,
         "name": "CSS",
         "category": "User Interface",
-        "description": "Style and layout web pages."
+        "description": "Style and layout web pages.",
+        "iconComponent": "FaCss3Alt"
       },
       {
+        "id": 3,
         "name": "JavaScript",
         "category": "Interaction",
-        "description": "Enhance interactivity and behavior on web pages."
-      },
-      {
-        "name": "Node.js",
-        "category": "Web Server",
-        "description": "Server-side JavaScript runtime."
-      },
-      {
-        "name": "Express.js",
-        "category": "Node Framework",
-        "description": "Web framework for Node.js applications."
-      },
-      {
-        "name": "MongoDB",
-        "category": "Database",
-        "description": "Document-oriented NoSQL database."
-      },
-      {
-        "name": "React",
-        "category": "Framework",
-        "description": "JavaScript library for building user interfaces."
-      },
-      {
-        "name": "Tailwind CSS",
-        "category": "User Interface",
-        "description": "Utility-first CSS framework."
+        "description": "Enhance interactivity on web pages.",
+        "iconComponent": "FaJsSquare"
       }
     ]
+  }
   
