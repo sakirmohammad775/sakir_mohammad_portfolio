@@ -16,7 +16,10 @@ const Home = () => {
                 <InfoSection />
             </div>
             <EssentialTools />
+            <div id="myProject">
+
             <MyProjects />
+            </div>
             <div id="services">
                 <WhatWeDo />
             </div>
