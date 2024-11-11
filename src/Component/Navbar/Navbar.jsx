@@ -1,86 +1,65 @@
-
-import { Link} from "react-router-dom";
-
-
+// Navbar.js
+import React from 'react';
+import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FiHome, FiUser, FiFileText, FiBriefcase, FiLayers, FiMail } from 'react-icons/fi';
+import bgImage from "../../assets/20210925_120006.jpg";
+import { Link as ScrollLink } from 'react-scroll';
 
 const Navbar = () => {
-    // const { user, logOut } = useContext(AuthContext)
-    // const [cart] = useCart()
+  return (
+    <div className="flex flex-col lg:flex-row min-h-screen bg-gray-100">
+      <aside className="w-full lg:w-64 bg-black text-white p-4 flex-shrink-0">
+        <div className="flex flex-col items-center mt-6">
+          <img
+            src={bgImage}
+            alt="Profile"
+            className="w-24 h-24 rounded-full border-4 border-gray-700 mb-2"
+          />
+          <h2 className="text-lg font-bold">Sakir Mohammad</h2>
+          <p className="text-sm text-gray-400">Web Developer</p>
+        </div>
 
-    // const handleLogOut = () => {
-    //     logOut()
-    //         .then(() => { })
-    //         .catch(error => console.log(error))
-    // }
+        <div className="flex justify-center mt-4 space-x-4">
+          <a href="https://github.com/sakirmohammad775" className="text-gray-400 hover:text-white"><FaGithub /></a>
+          <a href="https://www.linkedin.com/in/sakir-mohammad-safayet/" className="text-gray-400 hover:text-white"><FaLinkedin /></a>
+          <a href="https://www.facebook.com/sakirmohammad.safayat/" className="text-gray-400 hover:text-white"><FaFacebook /></a>
+          <a href="https://www.instagram.com/sakir_mohammad_/" className="text-gray-400 hover:text-white"><FaInstagram /></a>
+        </div>
 
-    const navOptions = <>
-        <li><Link to='/'>Home</Link></li>
-        <li><Link to='menu'>Our Menu</Link></li>
-        <li><Link to='/order/salad'>Order</Link></li>
-        {/* <li>
-            <Link to='/'>
+        <nav className="mt-10 space-y-2 text-center lg:text-left">
+          <ScrollLink to="home" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiHome className="mr-3" /> Home
+          </ScrollLink>
+          <ScrollLink to="about" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiUser className="mr-3" /> About
+          </ScrollLink>
+          <ScrollLink to="resume" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiFileText className="mr-3" /> Resume
+          </ScrollLink>
+          <ScrollLink to="portfolio" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiBriefcase className="mr-3" /> Portfolio
+          </ScrollLink>
+          <ScrollLink to="services" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiLayers className="mr-3" /> Services
+          </ScrollLink>
+          <ScrollLink to="contact" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+            <FiMail className="mr-3" /> Contact
+          </ScrollLink>
+        </nav>
+      </aside>
 
-                 {
-                    user? <h3>{user.email}</h3>:<><h3>hello</h3></>
-                 }   
-                <Link to='dashboard/cart'><button  className="btn">
-                    <FaShoppingCart>n</FaShoppingCart>
-                    <div className="badge badge-secondary">
-                        {cart.length}
-                    </div>
-                </button>
-                </Link>
-            </Link>
-        </li> */}
-{/* 
-        {
-            user ?
-                <>
-                    <span>{user?.displayName}</span>
-                    <button onClick={handleLogOut} className="btn btn-ghost">LogOut</button></>
-                :
-                <><li><Link to='/login'>Login</Link></li> </>
-        } */}
-
-    </>
-    return (
-        <>
-            <div className="navbar fixed z-20 bg-opacity-0 max-w-screen-xl  bg-black text-white ">
-                <div className="navbar-start">
-                    <div className="dropdown">
-                        <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
-                            <svg
-                                xmlns="http://www.w3.org/2000/svg"
-                                className="h-5 w-5"
-                                fill="none"
-                                viewBox="0 0 24 24"
-                                stroke="currentColor">
-                                <path
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M4 6h16M4 12h8m-8 6h16" />
-                            </svg>
-                        </div>
-                        <ul
-                            tabIndex={0}
-                            className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-                            {navOptions}
-                        </ul>
-                    </div>
-                    <a className="btn btn-ghost text-xl text-orange-500">Sakir <span className="text-white">Mohammad</span></a>
-                </div>
-                <div className="navbar-center hidden lg:flex">
-                    <ul className="menu menu-horizontal px-1">
-                        {navOptions}
-                    </ul>
-                </div>
-                <div className="navbar-end">
-                    <a className="btn">Explore</a>
-                </div>
-            </div>
-        </>
-    );
+      <main
+        className="flex-1 flex flex-col bg-cover bg-center p-6 sm:p-8 md:p-10 lg:p-12 relative"
+        style={{ backgroundImage: `url(${bgImage})` }}
+      >
+        <div className="absolute inset-0 bg-black opacity-40"></div>
+        <div className="relative z-10 text-center lg:text-left text-white my-auto p-4 sm:my-48">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold">Sakir Mohammad</h1>
+          <p className="text-xl sm:text-2xl lg:text-3xl">Web Developer</p>
+        </div>
+      </main>
+    </div>
+  );
 };
 
 export default Navbar;

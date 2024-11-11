@@ -10,7 +10,7 @@ const WhatWeOffer = () => {
           {/* left side menu */}
         <div>
                         <h1 className='text-gray-300 py-6'>WELCOME</h1>
-                        <h1 className="text-5xl font-bold text-white">We Help Build On Past & Prepare For Your Future.</h1>
+                        <h1 className="text-5xl font-bold text-white">Help Build On Past & Prepare For Your Future.</h1>
                         <p className="py-6 text-gray-300" >
                             As a passionate web developer, I specialize in JavaScript,<br /> Node.js, React.js, and modern front-end technologies, <br />crafting  innovative and user-friendly web applications <br />that deliver dynamic, high-quality experiences <br />across various platforms.
                         </p>

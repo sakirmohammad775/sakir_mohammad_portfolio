@@ -16,7 +16,7 @@ const Newsletter = () => {
       <div className='max-w-screen-xl mx-auto grid lg:grid-cols-2'>
         {/* left side */}
         <div>
-          <h2 className="text-3xl font-bold mb-4">Join Our Newsletter</h2>
+          <h2 className="text-3xl font-bold mb-4">Join My Newsletter</h2>
           <p className="text-lg mb-6">Stay updated with the latest news and offers.</p>
         </div>
         {/**right side */}
