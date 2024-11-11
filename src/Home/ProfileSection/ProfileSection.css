@@ -1,0 +1,97 @@
+/* ProfileSection.css */
+
+.profile-section {
+  color: #e0e0e0;
+  max-width: 600px;
+  margin: auto;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.tab {
+  cursor: pointer;
+  color: #a0a0a0;
+  transition: color 0.3s;
+}
+
+.tab.active {
+  color: #e0e0e0;
+  font-weight: bold;
+}
+
+.profile-card {
+  background-color: #1c1c1c;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-4px);
+}
+
+.profile-card h4 {
+  font-weight: bold;
+  font-size: 1rem;
+  color: #d8d8d8;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.5rem;
+}
+
+.profile-card h3 {
+  font-size: 1.2rem;
+  color: #e0e0e0;
+  margin-bottom: 0.3rem;
+}
+
+.profile-card p {
+  font-size: 0.9rem;
+  color: #b0b0b0;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.skill-name {
+  font-size: 1rem;
+  color: #e0e0e0;
+  margin-bottom: 0.3rem;
+}
+
+.progress-bar {
+  background-color: #333;
+  border-radius: 5px;
+  overflow: hidden;
+  height: 8px;
+}
+
+.progress {
+  background-color: #f39c12; /* Golden color */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 5px;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.progress-level {
+  font-size: 0.7rem;
+  color: #e0e0e0;
+}

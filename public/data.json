@@ -1,0 +1,40 @@
+{
+    "experience": [
+      {
+        "company": "FRENIFY LLC",
+        "title": "Sr. Front-end Engineer",
+        "duration": "2018 – Today",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "company": "GOOGLE LLC",
+        "title": "Front-end Developer",
+        "duration": "2016 – 2018",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ],
+    "education": [
+      {
+        "institution": "Harvard University",
+        "title": "Computer Science Certification",
+        "duration": "2014 – 2016",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      },
+      {
+        "institution": "MIT",
+        "title": "Full Stack Development Certification",
+        "duration": "2016 – 2017",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      }
+    ],
+   "skills": [
+     { "name": "HTML5 & CSS3", "level": 95 },
+     { "name": "C & C++", "level": 70 },
+     { "name": "Javascript", "level": 75 },
+     { "name": "Python", "level": 80 },
+     { "name": "Mongo DB", "level": 50 },
+     { "name": "NodeJs", "level": 50 }
+  ]
+
+  }
+  
