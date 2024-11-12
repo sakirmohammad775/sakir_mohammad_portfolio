@@ -13,20 +13,13 @@ const Home = () => {
     return (
         <div>
             <Navbar />
-            <ExperienceSection></ExperienceSection>
-            <div id="home">
-                <InfoSection />
-            </div>
-            <EssentialTools />
-            <div id="myProject">
-
-                <MyProjects />
-            </div>
-            <div id="services">
-                <WhatWeDo />
-            </div>
-            <WhatWeOffer />
-            <Newsletter />
+            <div className="about"><ExperienceSection ></ExperienceSection></div>
+            <div id="home"> <InfoSection /></div>
+            <EssentialTools></EssentialTools>
+            <div id="myProject"> <MyProjects /> </div>
+            <div id="services">  <WhatWeDo /></div>
+            <div> <WhatWeOffer  /> </div>
+            <div id="contact"> <Newsletter /></div>
             <Footer />
             
         </div>

@@ -1,37 +1,47 @@
 import React, { useState } from 'react';
-import bgImage from "../../assets/kevin-wang-JwR6ajxeShU-unsplash.jpg"
+import bgImage from "../../assets/kevin-wang-JwR6ajxeShU-unsplash.jpg";
 
 const Newsletter = () => {
   const [email, setEmail] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle email submission here, e.g., send to an API or display a success message
     console.log('Submitting email:', email);
-    setEmail(''); // Clear the input field
+    setEmail('');
   };
 
   return (
-    <div className="bg-gray-800 md:h-[200px] text-white p-10" style={{ backgroundImage: `url(${bgImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-      <div className='max-w-screen-xl mx-auto grid lg:grid-cols-2'>
-        {/* left side */}
+    <div 
+      className="bg-gray-800 text-white p-6 sm:p-8 md:p-10 lg:p-12" 
+      style={{
+        backgroundImage: `url(${bgImage})`,
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+      }}
+    >
+      <div className="max-w-screen-xl mx-auto grid gap-6 lg:grid-cols-2 items-center">
+        {/* Left side */}
         <div>
-          <h2 className="text-3xl font-bold mb-4">Let's Connect</h2>
-          <p className="text-lg mb-6">Stay updated with the latest news and offers.</p>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-3 sm:mb-4">
+            Let's Connect
+          </h2>
+          <p className="text-base sm:text-lg mb-4 sm:mb-6">
+            Stay updated with the latest news and offers.
+          </p>
         </div>
-        {/**right side */}
+        {/* Right side */}
         <div>
-          <form onSubmit={handleSubmit} className="flex">
+          <form onSubmit={handleSubmit} className="flex flex-col sm:flex-row">
             <input
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter your email"
-              className="flex-1 bg-gray-700 text-white p-3 rounded-l-md"
+              className="flex-1 bg-gray-700 text-white p-3 rounded-t-md sm:rounded-l-md sm:rounded-t-none focus:outline-none"
             />
             <button
               type="submit"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-3 rounded-r-md"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-4 py-3 rounded-b-md sm:rounded-r-md sm:rounded-b-none"
             >
               Subscribe
             </button>
@@ -40,6 +50,6 @@ const Newsletter = () => {
       </div>
     </div>
   );
-}
+};
 
 export default Newsletter;

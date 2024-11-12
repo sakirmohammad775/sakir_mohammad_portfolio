@@ -3,6 +3,7 @@ import { FaFacebook, FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 import { FiHome, FiUser, FiFileText, FiBriefcase, FiLayers, FiMail } from 'react-icons/fi';
 import bgImage from "../../assets/20210925_120006.jpg";
 import { Link as ScrollLink } from 'react-scroll';
+import { SiCodeforces } from 'react-icons/si';
 
 const Navbar = () => {
     return (
@@ -25,6 +26,7 @@ const Navbar = () => {
                     <a href="https://www.linkedin.com/in/sakir-mohammad-safayet/" className="text-gray-400 hover:text-white"><FaLinkedin size={20} /></a>
                     <a href="https://www.facebook.com/sakirmohammad.safayat/" className="text-gray-400 hover:text-white"><FaFacebook size={20} /></a>
                     <a href="https://www.instagram.com/sakir_mohammad_/" className="text-gray-400 hover:text-white"><FaInstagram size={20} /></a>
+                    <a href="https://www.instagram.com/sakir_mohammad_/" className="text-gray-400 hover:text-white"><SiCodeforces size={20} /></a>
                 </div>
 
                 {/* Navigation Links */}
