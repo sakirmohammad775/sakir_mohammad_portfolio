@@ -1,50 +1,17 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Modern UI Design",
-    "category": "Designing"
+    "image": "https://i.ibb.co.com/tpBX3hf/Screenshot-2024-11-12-151631.png",
+    "title": "Flower Shop",
+    "category": "Designing",
+    "link":"https://flower-shop-plum.vercel.app/"
   },
   {
     "id": 2,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Interactive App Mockup",
-    "category": "Designing"
-  },
-  {
-    "id": 3,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Digital Art Illustration",
-    "category": "Graphic"
-  },
-  {
-    "id": 4,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Brand Logo Design",
-    "category": "Graphic"
-  },
-  {
-    "id": 5,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "E-commerce Platform",
-    "category": "Websites"
-  },
-  {
-    "id": 6,
-    "image": "../src/assets/20210916_191051.jpg",
+    "image": "https://i.ibb.co.com/pfJ9FsV/Screenshot-2024-11-12-151917.png",
     "title": "Personal Portfolio",
-    "category": "Websites"
-  },
-  {
-    "id": 7,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Personal Portfolio",
-    "category": "Graphic"
-  },
-  {
-    "id": 8,
-    "image": "../src/assets/20210916_191051.jpg",
-    "title": "Personal Portfolio",
-    "category": "Graphic"
+    "category": "Designing",
+    "link":"https://portfolio-xi-one-48.vercel.app/"
   }
+  
 ]

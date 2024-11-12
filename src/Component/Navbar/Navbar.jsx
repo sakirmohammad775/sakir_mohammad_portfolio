@@ -14,8 +14,9 @@ const Navbar = () => {
                     <img
                         src={bgImage}
                         alt="Profile"
-                        className="w-24 h-24 rounded-full border-4 border-gray-700 mb-2"
+                        className="w-24 h-24 rounded-full border-4 border-gray-700 mb-2 object-cover"
                     />
+
                     <h2 className="text-lg font-bold">Sakir Mohammad</h2>
                     <p className="text-sm text-gray-400">Web Developer</p>
                 </div>
@@ -26,7 +27,7 @@ const Navbar = () => {
                     <a href="https://www.linkedin.com/in/sakir-mohammad-safayet/" className="text-gray-400 hover:text-white"><FaLinkedin size={20} /></a>
                     <a href="https://www.facebook.com/sakirmohammad.safayat/" className="text-gray-400 hover:text-white"><FaFacebook size={20} /></a>
                     <a href="https://www.instagram.com/sakir_mohammad_/" className="text-gray-400 hover:text-white"><FaInstagram size={20} /></a>
-                    <a href="https://www.instagram.com/sakir_mohammad_/" className="text-gray-400 hover:text-white"><SiCodeforces size={20} /></a>
+                    <a href="https://codeforces.com/profile/sakirmohammad775" className="text-gray-400 hover:text-white"><SiCodeforces size={20} /></a>
                 </div>
 
                 {/* Navigation Links */}

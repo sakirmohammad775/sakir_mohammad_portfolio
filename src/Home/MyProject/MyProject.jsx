@@ -61,7 +61,10 @@ const MyProjects = () => {
                         className="relative transform transition duration-300 hover:scale-105 hover:shadow-lg hover:shadow-orange-500/40 rounded-lg overflow-hidden"
                             onClick={() => handleCardClick(project.id)}
                         >
-                            <img src={project.image} alt={project.title} className="w-full h-60 object-cover rounded-lg" />
+                            <a href={project.link}>
+                                <img src={project.image} alt={project.title} className="w-full h-60 object-cover rounded-lg" />
+                                
+                                </a>
                             {project.title && (
                                 <div className="absolute bottom-0 left-0 bg-black bg-opacity-50 p-3 w-full rounded-b-lg">
                                     <h3 className="text-lg font-semibold">{project.title}</h3>
