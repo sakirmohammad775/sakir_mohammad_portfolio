@@ -1,10 +1,50 @@
 [
-  { "id": 1, "image": "../src/assets/20210916_191051.jpg", "title": "Art Gallery", "category": "Art & Design" },
-  { "id": 2, "image": "../src/assets/20210916_191051.jpg", "title": "Tech Conference", "category": "Events" },
-  { "id": 3, "image": "../src/assets/20210916_191051.jpg", "title": "Portfolio Website", "category": "Web Development" },
-  { "id": 4, "image": "../src/assets/20210916_191051.jpg", "title": "Mountain Adventure", "category": "Photography" },
-  { "id": 5, "image": "../src/assets/20210916_191051.jpg", "title": "Cooking Workshop", "category": "Culinary" },
-  { "id": 6, "image": "../src/assets/20210916_191051.jpg", "title": "Music Festival", "category": "Entertainment" },
-  { "id": 7, "image": "../src/assets/20210916_191051.jpg", "title": "Fitness App", "category": "Health & Fitness" },
-  { "id": 8, "image": "../src/assets/20210916_191051.jpg", "title": "Travel Blog", "category": "Writing" }
+  {
+    "id": 1,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Modern UI Design",
+    "category": "Designing"
+  },
+  {
+    "id": 2,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Interactive App Mockup",
+    "category": "Designing"
+  },
+  {
+    "id": 3,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Digital Art Illustration",
+    "category": "Graphic"
+  },
+  {
+    "id": 4,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Brand Logo Design",
+    "category": "Graphic"
+  },
+  {
+    "id": 5,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "E-commerce Platform",
+    "category": "Websites"
+  },
+  {
+    "id": 6,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Personal Portfolio",
+    "category": "Websites"
+  },
+  {
+    "id": 7,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Personal Portfolio",
+    "category": "Graphic"
+  },
+  {
+    "id": 8,
+    "image": "../src/assets/20210916_191051.jpg",
+    "title": "Personal Portfolio",
+    "category": "Graphic"
+  }
 ]

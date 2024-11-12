@@ -28,6 +28,7 @@ const Home = () => {
             <WhatWeOffer />
             <Newsletter />
             <Footer />
+            
         </div>
     );
 };

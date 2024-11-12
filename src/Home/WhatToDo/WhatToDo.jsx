@@ -21,7 +21,7 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <div className="what-we-do bg-gray-900 py-12 text-white text-center">
+    <div className="what-we-do bg-black py-12 text-white text-center">
       <div className="max-w-screen-lg mx-auto px-4">
         <h2 className="text-4xl font-bold mb-4">
           WHAT I <span className="text-orange-500">DO</span>
@@ -32,7 +32,7 @@ const WhatWeDo = () => {
         <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           {services.map((service, index) => (
             <div 
-              className="service-card bg-gray-800 p-6 rounded-lg shadow-lg transform transition-transform hover:scale-105"
+              className="service-card bg-black border-white border p-6 rounded-2xl shadow-lg transform transition-transform hover:scale-105"
               key={index}
             >
               <div className="icon text-5xl text-orange-500 mb-4">{service.icon}</div>

@@ -24,7 +24,7 @@ const Technologies = () => {
             <div className="border-b bg-black border-neutral-800 pb-24">
                 <div className="text-center">
                 <h2 className="text-3xl font-bold mb-4 text-center text-white"><span className='text-orange-400'>Essential</span > Tools I Use</h2>
-                    <p className="text-gray-200">Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
+                    <p className="text-gray-200 pb-20">Discover the powerful tools and technologies I use to create exceptional, high-performing websites & applications.</p>
                 </div>
 
                 <motion.div

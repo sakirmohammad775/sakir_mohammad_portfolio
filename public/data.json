@@ -1,30 +1,40 @@
 {
     "experience": [
       {
-        "company": "FRENIFY LLC",
-        "title": "Sr. Front-end Engineer",
-        "duration": "2018 – Today",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-      },
-      {
-        "company": "GOOGLE LLC",
-        "title": "Front-end Developer",
-        "duration": "2016 – 2018",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "company": "LLC",
+        "title": "Front End Developer -Intern",
+        "duration": "2024 – present",
+        "description": ""
       }
     ],
     "education": [
       {
-        "institution": "Harvard University",
-        "title": "Computer Science Certification",
-        "duration": "2014 – 2016",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "institution": "Chittagong Textile Engineering College",
+        "title": "Fabric Manufacturing Engineering",
+        "duration": "2020 – 2025"
       },
       {
-        "institution": "MIT",
-        "title": "Full Stack Development Certification",
-        "duration": "2016 – 2017",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        "institution": "Cambrian College",
+        "title": "Intermediate",
+        "duration": "2017 – 2019"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "Foundations: Data, Data, Everywhere",
+        "description": "https://www.coursera.org/account/accomplishments/records/3QNTDVX3E4Q9"
+      },
+      {
+        "title": "Natural Language Processing (NLP) ",
+         "description": "https://simpli-web.app.link/e/urwaukPDhOb"
+      },
+      {
+        "title": "JavaScript Basic",
+        "description": "https://www.hackerrank.com/certificates/iframe/04c6b40fb2ed"
+      },
+      {
+        "title": "Web Development Certified",
+        "description": "https://www.coursera.org/account/accomplishments/records/3QNTDVX3E4Q9"
       }
     ],
    "skills": [

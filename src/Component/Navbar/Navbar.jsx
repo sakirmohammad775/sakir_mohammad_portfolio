@@ -33,14 +33,23 @@ const Navbar = () => {
                     <ScrollLink to="about" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
                         <FiUser className="mr-3" /> About
                     </ScrollLink>
-                    <ScrollLink to="resume" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
-                        <FiFileText className="mr-3" />
 
-                        <a href="../../assets/Sakir_Mohammad.pdf" download="../../assets/Sakir_Mohammad.pdf">
-                            Download Resume
-                        </a>
 
-                    </ScrollLink>
+
+                    {/* Download link */}
+                    <div className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
+
+                    <FiFileText className="mr-3" />
+                    <a
+                        href="https://drive.google.com/file/d/1NTcAHPgYZ5UJt6I20gI3ccgPtjZQOceO/view?usp=sharing"
+                        download
+                        className="" // Style the button as needed
+                    >
+                     Resume
+                    </a>
+                    </div>
+                    
+
                     <ScrollLink to="myProject" smooth={true} duration={1000} className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
                         <FiBriefcase className="mr-3" />My Project
                     </ScrollLink>
