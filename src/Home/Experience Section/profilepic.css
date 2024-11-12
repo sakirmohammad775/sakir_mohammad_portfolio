@@ -1,36 +1,100 @@
-/* Container to align items side by side */
+/* Container for aligning items side by side */
+.profile-container {
+  display: flex;
+  flex-direction: column; /* Stacks items vertically by default */
+  gap: 20px;
+}
 
-  
-  /* Left side text information */
-  .profile-info {
-    flex: 1;
+/* Responsive layout for larger screens */
+@media (min-width: 768px) {
+  .profile-container {
+    flex-direction: row; /* Aligns items side by side on medium and larger screens */
   }
-  
+}
+
+/* Left side text information */
+.profile-info {
+  flex: 1;
+  padding: 1rem;
+}
+
+.profile-info h3 {
+  font-size: 1rem;
+  color: #a0a0a0; /* Subtitle color */
+}
+
+.status {
+  font-size: 1.1rem;
+  color: #a0a0a0;
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) {
   .profile-info h3 {
-    font-size: 1rem;
-    color: #a0a0a0; 
-/* Subtitle color */
+    font-size: 1.2rem;
   }
-  
-  
-  
   .status {
-    font-size: 1.1rem;
-    color: #a0a0a0;
-    margin-top: 10px;
+    font-size: 1.2rem;
   }
-  
-  /* Right side image */
-  .profile-image {
-    flex: 0 0 300px; /* Fixed width for the image */
-    display: flex;
-    justify-content: center;
+}
+
+@media (min-width: 1024px) {
+  .profile-info h3 {
+    font-size: 1.4rem;
   }
-  
+  .status {
+    font-size: 1.3rem;
+  }
+}
+
+/* Right side image */
+.profile-image {
+  flex: 0 0 300px;
+  display: flex;
+  justify-content: center;
+}
+
+.profile-image img {
+  width: 100%;
+  height: auto;
+  max-width: 250px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive adjustments for the image */
+@media (min-width: 768px) {
   .profile-image img {
-    width: 80%;
-    height: 80%;
-    border-radius: 10px;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.3);
+    max-width: 300px; /* Increases image size on medium screens */
+  }
+}
+
+@media (min-width: 1024px) {
+  .profile-image img {
+    max-width: 350px; /* Larger image size on larger screens */
+  }
+}
+
+/* Additional styling for screens with max-width 425px */
+@media (max-width: 425px) {
+  .profile-info h3 {
+    font-size: 0.9rem; /* Smaller font for smaller screens */
+
+  }
+  .status {
+    font-size: 1rem; /* Adjusted for readability */
   }
   
+  /* Reducing image size for smaller screens */
+  .profile-image img {
+    max-width: 180px;
+  }
+
+  /* Adding padding and spacing adjustments for compact view */
+  .profile-container {
+    padding: 0 10px;
+  }
+  .tabs {
+    font-size: 1rem;
+  }
+}
