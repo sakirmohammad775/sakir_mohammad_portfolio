@@ -4,6 +4,8 @@ import { FiHome, FiUser, FiFileText, FiBriefcase, FiLayers, FiMail } from 'react
 import bgImage from "../../assets/20210925_120006.jpg";
 import { Link as ScrollLink } from 'react-scroll';
 import { SiCodeforces } from 'react-icons/si';
+//style={{ backgroundImage: `url('https://i.ibb.co/P1S1MVX/20210925-120006.jpg')` }}
+//img bb form 
 
 const Navbar = () => {
     return (
@@ -43,7 +45,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
                         <FiFileText className="mr-3" />
                         <a
-                            href="https://drive.google.com/file/d/1NTcAHPgYZ5UJt6I20gI3ccgPtjZQOceO/view?usp=sharing"
+                            href="https://drive.google.com/file/d/1NTcAHPgYZ5UJt6I20gI3ccgPtjZQOceO/view?usp=sharing////"//add
                             download
                             className="text-white hover:text-gray-300"
                         >
