@@ -45,7 +45,7 @@ const Navbar = () => {
                     <div className="flex items-center justify-center lg:justify-start p-2 hover:bg-gray-700 rounded-lg cursor-pointer">
                         <FiFileText className="mr-3" />
                         <a
-                            href="https://drive.google.com/file/d/1NTcAHPgYZ5UJt6I20gI3ccgPtjZQOceO/view?usp=sharing////"//add
+                            // href="https://drive.google.com/file/d/1NTcAHPgYZ5UJt6I20gI3ccgPtjZQOceO/view?usp=sharing"
                             download
                             className="text-white hover:text-gray-300"
                         >
